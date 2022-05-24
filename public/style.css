@@ -1,0 +1,58 @@
+body{
+    display: flex;
+}
+
+aside{
+    flex: 1;
+}
+
+main{
+    flex: 4;
+}
+
+#channel{
+    list-style: none;
+}
+
+#channel li{
+    padding: 10px;
+}
+
+#channel li.active{
+    font-weight: bold;
+    color: white;
+    background-color: #393c43;
+}
+
+#channel li:not(.active){
+    cursor: pointer;
+}
+
+#username{
+    color: blue;
+    flex: 1;
+}
+
+#message{
+    flex :5;
+}
+
+#submit{
+    flex: 1;
+}
+
+ul{
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+form{
+    display: flex;
+}
+
+#messages{
+    height: 90vh;
+    background-color: #393c43;
+    color: white;
+}
+
